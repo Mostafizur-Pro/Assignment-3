@@ -1,0 +1,30 @@
+.footer-padding {
+  margin: 0 10px;
+  font-size: 40px;
+}
+@media only screen and (max-width: 576px) {
+  .sm-width h2 {
+    font-size: 50%;
+  }
+  .sm-width p {
+    font-size: 30%;
+  }
+  .sm-width a {
+    font-size: 30%;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+  }
+
+  .sm-width {
+    width: auto;
+    height: 70%;
+  }
+
+  .custom-button {
+    width: auto;
+  }
+  .custom-button button {
+    font-size: 10px;
+  }
+}
